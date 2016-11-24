@@ -4,7 +4,7 @@
 
 A drag & drop plugin for vue. Using the native [HTML Drag and Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API). 100% **jQuery FREE**.
 
-Before started, I recommend you to check out the [example](https://kelvinleung.github.com/vue-draggie) first.
+Before started, I recommend you to check out the [example](https://kelvinleung.github.io/vue-draggie) first.
 
 *FYI*: This is my first open-source project. So, don't take it too serious.
 
@@ -16,7 +16,7 @@ I mean it.
 
 ### Installation
 
-Use npm to download vue-draggie (Still working on it.):
+Use npm to download vue-draggie:
 
 ```
 npm install vue-draggie --save
@@ -130,11 +130,11 @@ Then add the `v-draggie` directive to that same element.
 
 You may pass the following arguments as an object to the draggie directive:
 
-### Id (required)
+#### Id (required)
 
 The element's unique id, usually the 'index', which is used for identifying which element is being dragged.
 
-### Swap function (optional)
+#### Swap function (optional)
 
 In order to swap the dragged (source) and dropped (destination) element, you need to apply your own swap function to swap data, style etc. The swap function will be invoked immediately once the dragged element has been dropped.
 
