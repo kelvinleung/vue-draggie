@@ -1,0 +1,30 @@
+{
+  "name": "vue-dr",
+  "version": "0.0.1",
+  "description": "drag n drop for Vue",
+  "main": "vue-draggie.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.prod.js --display-error-details",
+    "start": "webpack-dev-server --config webpack.config.dev.js --inline --hot",
+    "dev": "webpack --config webpack.config.dev.js --display-error-details"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "Kelvin",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-latest": "^6.16.0",
+    "css-loader": "^0.26.0",
+    "html-webpack-plugin": "^2.24.1",
+    "style-loader": "^0.13.1",
+    "vue-loader": "^9.9.5",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "vue": "^2.0.7"
+  }
+}
