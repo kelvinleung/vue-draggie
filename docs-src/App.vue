@@ -3,7 +3,7 @@
     <p>{{ items }}</p>
     <div class="column"
       v-for="(item, index) in items"
-      v-draggie="{swap: swapEls, index: index}"
+      v-draggie="{swap: swapEls, id: index}"
     ><h1>{{ item }}</h1>
     </div>
   </div>

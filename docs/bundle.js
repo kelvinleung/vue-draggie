@@ -483,9 +483,9 @@
 	        rawName: "v-draggie",
 	        value: ({
 	          swap: _vm.swapEls,
-	          index: index
+	          id: index
 	        }),
-	        expression: "{swap: swapEls, index: index}"
+	        expression: "{swap: swapEls, id: index}"
 	      }],
 	      staticClass: "column"
 	    }, [_vm._h('h1', [_vm._s(item)])])
